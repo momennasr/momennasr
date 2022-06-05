@@ -1,0 +1,72 @@
+
+header{
+    display: flex;
+    background-color: rgb(172, 172, 172);
+    overflow: hidden;
+    flex-direction: row;  
+    margin: 0%;
+}
+.mmn{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    font-weight: bold;   
+    justify-content: space-around;
+    border: 2px solid rgb(0, 0, 0);     
+}
+img{
+    margin: 4px;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25pt;
+    margin: 13px;
+    font-weight: bold;
+    
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    margin: 0%;
+}
+.mm{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(172, 172, 172);
+}
+.container{
+    display: grid;
+    width: 50%;
+    grid-template-rows: 200px 400px 100px;
+    grid-template-areas:"up up up" "middle middle middle" "down down down" ;
+}
+.words{
+    color: rgb(172, 172, 172);
+    float: left;
+    grid-area: middle;  
+}
+p{
+ font-size: 30pt;   
+}
+h1{
+    font-size: 45pt;   
+}
+.pp{
+    float:right;
+
+}
+.connection{
+    grid-area: middle;
+    color: white;
+    text-align: center;
+    float: left;
+
+}
+h3{
+    font-size: 14pt;
+    color: white;
+}

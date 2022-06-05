@@ -1,0 +1,10 @@
+.head{
+    font-weight: bold;
+    font-size: 28pt;
+    text-align: center;
+    background-color: rgb(172, 172, 172);
+}
+body{
+    background-color: black;
+    margin: 0%;
+}
