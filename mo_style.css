@@ -16,6 +16,12 @@ nav{
     justify-content: space-around;
     border: 2px solid rgb(0, 0, 0);     
 }
+.l:hover{
+    color: gray;
+}
+.ll:hover{
+    color: gray;
+}
 img{
     margin: 4px;
 }
@@ -69,4 +75,10 @@ h1{
 h3{
     font-size: 14pt;
     color: white;
+}
+footer{
+    color: rgb(163, 163, 163);
+    font-family: tahoma;
+    font-size: 12px;
+    padding-top: 160px;
 }
